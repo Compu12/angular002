@@ -9,13 +9,11 @@
     <th>Estado</th>
   </thead>
   <tbody>
-    <tr *ngFor="let estudiante of listaEstudiantes">
-      <td>1</td>
+    <tr *ngFor="let estudiante of listaEstudiantes; let i =index"><!-- añadir index -->
+      <td>{{i+1}}</td>
       <td>{{estudiante.nombre}}</td>
       <td>{{estudiante.estado}}</td>
     </tr>
-    
-
   </tbody>
   <tfoot>
 
