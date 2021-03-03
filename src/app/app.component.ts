@@ -25,6 +25,11 @@ listaEstudiantes:any[]=[
   }
 ]
 
+mostrar:boolean=true;
+ejecutar():void{
+this.mostrar=!this.mostrar;  
+}
+
 
 
 }
