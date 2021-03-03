@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular002';
+
+
+listaEstudiantes:any[]=[
+  {
+    nombre:'Xavier Cañizares',
+    estado:'Aprobado'
+  },
+  {
+    nombre:'John Doe',
+    estado:'Aprobado'
+  }
+  ,
+  {
+    nombre:'Luis Doe',
+    estado:'Suspenso'
+  }
+]
+
+
+
 }
