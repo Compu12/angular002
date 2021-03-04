@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular002';
-
+  
+  mostrar:boolean=true;
 
 listaEstudiantes:any[]=[
   {
@@ -22,10 +23,14 @@ listaEstudiantes:any[]=[
   {
     nombre:'Luis Doe',
     estado:'Suspenso'
+  },
+  {
+    nombre:'Rebeca Doe',
+    estado:'Retirado'
   }
 ]
 
-mostrar:boolean=true;
+
 ejecutar():void{
 this.mostrar=!this.mostrar;  
 }
